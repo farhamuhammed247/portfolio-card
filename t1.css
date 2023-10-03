@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right bottom, rgba(122, 121, 121, 0.21), rgb(236, 247, 84));
+    
+}
+
+
+.container {
+    height: 700px;
+    width: 500px;
+    box-shadow: 0 10px 20px rgb(178, 142, 204);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Abel', sans-serif;
+    
+   
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    background-image: url('24-9-2022_15_58_27_GomhuriaOnline_321664027907.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid rgb(248, 244, 250);
+    position: relative;
+    top: 150px;
+    margin-left: 120px;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-20deg);
+    
+}
+
+.shape {
+    height: 250px;
+    width: 400px;
+    background-color: rgb(160, 108, 224);
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px rgb(169, 126, 169);
+    transform: rotate(30deg);
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.title {
+    color: rgb(105, 100, 109);
+    margin-top: 20px;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(105, 100, 109);
+    margin-top: 20px;
+}
+
+.icons {
+    margin-top: 40px;
+}
+
+.icons i {
+    margin-left: 20px;
+    font-size: 30px;
+    transition: 0.3s;
+    color: rgb(168, 152, 209);
+    ;
+}
+
+.icons i:hover {
+    transform: scale(1.1);
+    color: rgb(168, 152, 209);
+}
